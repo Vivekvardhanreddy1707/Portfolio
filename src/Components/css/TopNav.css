@@ -1,0 +1,32 @@
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #e6f4ea;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1d3b2f;
+}
+
+.contact-button {
+    padding: 0.5rem 1rem;
+    background-color: #1d3b2f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #14532d;
+}

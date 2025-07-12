@@ -1,0 +1,48 @@
+/* Components/css/ContactPopup.css */
+.contact-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.contact-popup {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.contact-popup h2 {
+    margin-bottom: 1rem;
+    color: #1d3b2f;
+}
+
+.contact-popup p {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.contact-popup a {
+    color: #1d3b2f;
+    text-decoration: none;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
